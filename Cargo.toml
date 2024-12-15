@@ -1,0 +1,10 @@
+[package]
+name = "scraping-pexels"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.12.9"
+serde = "1.0.216"
+thirtyfour = "0.35.0"
+tokio = { version = "1.42.0", features = ["full"] }
